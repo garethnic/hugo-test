@@ -12,7 +12,7 @@ curl -L \
 
 tar -xzf /tmp/hugo.tar.gz -C /tmp hugo
 
-sudo install /tmp/hugo /usr/local/bin/hugo
+install /tmp/hugo /usr/local/bin/hugo
 
 echo "Installed version:"
 hugo version
